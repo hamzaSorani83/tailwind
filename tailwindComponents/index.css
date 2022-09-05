@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind components;
+
+@layer components {
+  @import "tailwindComponents/alert.css";
+  @import "tailwindComponents/formik.css";
+  @import "tailwindComponents/buttons.css";
+}
