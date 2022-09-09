@@ -1,35 +1,58 @@
-.Btn {
-  @apply inline-block px-6 py-2.5 font-medium leading-tight uppercase rounded hover:shadow-lg  focus:shadow-lg  active:shadow-lg transition duration-150 ease-in-out focus:outline-none text-xs focus:ring-0
+.Button {
+  @apply inline-block px-6 py-2.5 font-medium leading-tight uppercase rounded hover:shadow-lg focus:shadow-lg active:shadow-lg transition duration-150 ease-in-out focus:outline-none text-xs focus:ring-0;
 }
-.BtnBlue {
-  @apply bg-blue-600 text-white  hover:bg-blue-700 focus:bg-blue-700 active:bg-blue-800 !important;
+.Button-blue {
+  @apply bg-blue-600 text-white hover:bg-blue-700 focus:bg-blue-700 active:bg-blue-800 !important;
 }
-.BtnPurple {
-  @apply bg-purple-600 text-white   hover:bg-purple-700 focus:bg-purple-700    active:bg-purple-800 !important;
+.Button-purple {
+  @apply bg-purple-600 text-white hover:bg-purple-700 focus:bg-purple-700 active:bg-purple-800 !important;
 }
-.BtnSuccess {
-  @apply bg-green-500 text-white   hover:bg-green-600 focus:bg-green-600    active:bg-green-700 !important;
+.Button-success {
+  @apply bg-green-500 text-white hover:bg-green-600 focus:bg-green-600 active:bg-green-700 !important;
 }
-.BtnDanger {
-  @apply bg-red-600 text-white   hover:bg-red-700 focus:bg-red-700    active:bg-red-800 !important;
+.Button-danger {
+  @apply bg-red-600 text-white hover:bg-red-700 focus:bg-red-700 active:bg-red-800 !important;
 }
-.BtnWarning {
-  @apply bg-yellow-500 text-white   hover:bg-yellow-600 focus:bg-yellow-600    active:bg-yellow-700 !important;
+.Button-warning {
+  @apply bg-yellow-500 text-white hover:bg-yellow-600 focus:bg-yellow-600 active:bg-yellow-700 !important;
 }
-.BtnInfo {
-  @apply bg-blue-400 text-white   hover:bg-blue-500 focus:bg-blue-500    active:bg-blue-600 !important;
+.Button-info {
+  @apply bg-blue-400 text-white hover:bg-blue-500 focus:bg-blue-500 active:bg-blue-600 !important;
 }
-.BtnLight {
-  @apply bg-gray-200 text-gray-700   hover:bg-gray-300 focus:bg-gray-300    active:bg-gray-400 !important;
+.Button-light {
+  @apply bg-gray-200 text-gray-700 hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-400 !important;
 }
-.BtnDark {
-  @apply bg-gray-800 text-white   hover:bg-gray-900 focus:bg-gray-900    active:bg-gray-900 !important;
+.Button-dark {
+  @apply bg-gray-800 text-white hover:bg-gray-900 focus:bg-gray-900 active:bg-gray-900 !important;
 }
-.FieldArrayBtn {
-  @apply h-12 ml-4 rounded mb-2 p-4 text-xl flex justify-center items-center font-bold !important
+.FieldArrayButton {
+  @apply h-12 ml-4 rounded mb-2 p-4 text-xl flex justify-center items-center font-bold !important;
 }
 
 button:disabled {
   opacity: 60%;
   cursor: no-drop !important;
 }
+
+.Button-border {
+  @apply p-2 lg:px-4 md:mx-2 text-center border border-solid rounded transition-colors duration-300 mt-1 md:mt-0 md:ml-1
+}
+.Button-border-blue {
+  @apply text-blue-600 border-blue-600 hover:bg-blue-600 hover:text-white  !important;
+}
+.Button-border-purple {
+  @apply text-purple-600 border-purple-600 hover:bg-purple-600 hover:text-white  !important;
+}
+.Button-border-success {
+  @apply text-green-600 border-green-600 hover:bg-green-600 hover:text-white  !important;
+}
+.Button-border-danger {
+  @apply text-red-600 border-red-600 hover:bg-red-600 hover:text-white  !important;
+}
+.Button-border-warning {
+  @apply text-yellow-600 border-yellow-600 hover:bg-yellow-600 hover:text-white  !important;
+}
+.Button-border-info {
+  @apply text-blue-400 border-blue-400 hover:bg-blue-400 hover:text-white  !important;
+}
+

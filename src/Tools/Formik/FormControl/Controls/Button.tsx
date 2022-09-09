@@ -9,8 +9,7 @@ export interface IButton {
 }
 
 const Button: React.FC<IButton> = ({varient, className, children, ...rest}) => {
-  const buttonVarient = "Btn" + varient[0].toUpperCase() + varient.substring(1);
-  className = ['Btn', buttonVarient , className].join(" ");
+  className = ['Button', `Button-${varient}` , className].join(" ");
   
   return (
     <button className={className} {...rest}>

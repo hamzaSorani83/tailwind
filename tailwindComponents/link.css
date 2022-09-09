@@ -1,0 +1,53 @@
+.Link {
+  @apply p-2 capitalize lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300;
+}
+
+.Link.active {
+  @apply p-2 lg:px-4 md:mx-2 rounded;
+}
+.Link-blue.active {
+  @apply bg-blue-600 text-white hover:bg-blue-700 focus:bg-blue-700 active:bg-blue-800 !important;
+}
+.Link-purple.active {
+  @apply bg-purple-600 text-white hover:bg-purple-700 focus:bg-purple-700 active:bg-purple-800 !important;
+}
+.Link-success.active {
+  @apply bg-green-500 text-white hover:bg-green-600 focus:bg-green-600 active:bg-green-700 !important;
+}
+.Link-danger.active {
+  @apply bg-red-600 text-white hover:bg-red-700 focus:bg-red-700 active:bg-red-800 !important;
+}
+.Link-warning.active {
+  @apply bg-yellow-500 text-white hover:bg-yellow-600 focus:bg-yellow-600 active:bg-yellow-700 !important;
+}
+.Link-info.active {
+  @apply bg-blue-400 text-white hover:bg-blue-500 focus:bg-blue-500 active:bg-blue-600 !important;
+}
+.Link-light.active {
+  @apply bg-gray-200 text-gray-700 hover:bg-gray-300 focus:bg-gray-300 active:bg-gray-400 !important;
+}
+.Link-dark.active {
+  @apply bg-gray-800 text-white hover:bg-gray-900 focus:bg-gray-900 active:bg-gray-900 !important;
+}
+
+.Link-hovered {
+  @apply p-2 lg:px-4 md:mx-2 text-center border border-transparent rounded transition-colors duration-300
+}
+.Link-hovered-blue {
+  @apply text-blue-600 hover:bg-blue-100 hover:text-blue-700 
+}
+.Link-hovered-purple {
+  @apply text-purple-600 hover:bg-purple-100 hover:text-purple-700 
+}
+.Link-hovered-success {
+  @apply text-green-600 hover:bg-green-100 hover:text-green-700 
+}
+.Link-hovered-danger {
+  @apply text-red-600 hover:bg-red-100 hover:text-red-700 
+}
+.Link-hovered-warning {
+  @apply text-yellow-600 hover:bg-yellow-100 hover:text-yellow-700 
+}
+.Link-hovered-info {
+  @apply text-blue-400 hover:bg-blue-100 hover:text-blue-500 
+}

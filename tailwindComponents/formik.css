@@ -21,7 +21,8 @@
 .Form-Blue .Form-input,
 .Form-Blue .Form-textarea,
 .Form-Blue .Form-select,
-.Form-Blue .Form-date {
+.Form-Blue .Form-date,
+.Input-Blue {
   @apply focus:border-blue-600 focus:ring-blue-500
 }
 .Form-Blue .Form-radio ,
@@ -31,7 +32,8 @@
 .Form-Purple .Form-input,
 .Form-Purple .Form-textarea,
 .Form-Purple .Form-select,
-.Form-Purple .Form-date {
+.Form-Purple .Form-date,
+.Input-Purple {
   @apply focus:border-purple-600 focus:ring-purple-600
 }
 
@@ -42,7 +44,8 @@
 .Form-Success .Form-input,
 .Form-Success .Form-textarea,
 .Form-Success .Form-select,
-.Form-Success .Form-date {
+.Form-Success .Form-date,
+.Input-Success {
   @apply focus:border-green-500 focus:ring-green-500
 }
 .Form-Success .Form-radio ,
@@ -52,7 +55,8 @@
 .Form-Danger .Form-input,
 .Form-Danger .Form-textarea,
 .Form-Danger .Form-select,
-.Form-Danger .Form-date {
+.Form-Danger .Form-date,
+.Input-Danger {
   @apply focus:border-red-600 focus:ring-red-600
 } 
 .Form-Danger .Form-radio ,
@@ -62,7 +66,8 @@
 .Form-Warning .Form-input,
 .Form-Warning .Form-textarea,
 .Form-Warning .Form-select,
-.Form-Warning .Form-date {
+.Form-Warning .Form-date,
+.Input-Warning {
   @apply focus:border-yellow-500 focus:ring-yellow-500
 }
 .Form-Warning .Form-radio ,
@@ -72,7 +77,8 @@
 .Form-Info .Form-input,
 .Form-Info .Form-textarea,
 .Form-Info .Form-select,
-.Form-Info .Form-date {
+.Form-Info .Form-date,
+.Input-Info {
   @apply focus:border-blue-400 focus:ring-blue-400
 }
 .Form-Info .Form-radio ,
@@ -82,7 +88,8 @@
 .Form-Light .Form-input,
 .Form-Light .Form-textarea,
 .Form-Light .Form-select,
-.Form-Light .Form-date {
+.Form-Light .Form-date,
+.Input-Light {
   @apply focus:border-gray-200 focus:ring-gray-200
 }
 .Form-Light .Form-radio ,
@@ -92,12 +99,36 @@
 .Form-Dark .Form-input,
 .Form-Dark .Form-textarea,
 .Form-Dark .Form-select,
-.Form-Dark .Form-date {
+.Form-Dark .Form-date,
+.Input-Dark {
   @apply focus:border-gray-800 focus:ring-gray-800
 }
 .Form-Dark .Form-radio ,
 .Form-Dark .Form-checkbox {
   @apply  accent-gray-800
+}
+
+.Input-group {
+  @apply flex w-full h-12
+}
+.Input-group-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.375rem 0.75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  text-align: center;
+  white-space: nowrap;
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
 }
 
 button[type=submit] {

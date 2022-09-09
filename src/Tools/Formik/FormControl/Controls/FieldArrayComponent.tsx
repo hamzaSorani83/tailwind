@@ -21,11 +21,11 @@ const FieldArrayComponent:React.FC<IFieldArrayData> = ({name}) => {
                 label={`${name}[${index}]:`} type="text" className='flex-auto'
               />
               {index > 0 && (
-                <button type='button' className='FieldArrayBtn BtnDark' onClick={() => remove(index)}>
+                <button type='button' className='FieldArrayButton Button-dark' onClick={() => remove(index)}>
                   -
                 </button>
               )}
-              <button type='button' className='FieldArrayBtn BtnDark' onClick={() => push('')}>
+              <button type='button' className='FieldArrayButton Button-dark' onClick={() => push('')}>
                 +
               </button>
             </div>
